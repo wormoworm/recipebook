@@ -1,0 +1,142 @@
+{
+    "id": 1,
+    "name": "Classic bolognese",
+    "description": "Taken from Antonio Carluccios recipe book",
+    "image": "path/to/image",
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Beef mince",
+            "quantity": "400",
+            "unit": "g",
+            "required": true
+        },
+        {
+            "id": 2,
+            "name": "Carrots",
+            "quantity": "200",
+            "unit": "g",
+            "required": true
+        },
+        {
+            "id": 3,
+            "name": "Onion",
+            "quantity": "100",
+            "unit": "g",
+            "required": true
+        },
+        {
+            "id": 4,
+            "name": "Celery",
+            "quantity": "100",
+            "unit": "g",
+            "required": false
+        },
+        {
+            "id": 5,
+            "name": "White wine",
+            "quantity": "250",
+            "unit": "ml",
+            "required": true,
+            "comment": "Can be any white wine, nothing fancy"
+        },
+        {
+            "id": 6,
+            "name": "Chicken stock",
+            "quantity": "300",
+            "unit": "ml",
+            "required": true
+        },
+        {
+            "id": 7,
+            "name": "Tomato puree",
+            "quantity": 2,
+            "unit": "tbsp",
+            "required": true
+        },
+        {
+            "id": 8,
+            "name": "Black pepper",
+            "quantity": "pinch",
+            "unit": "string",
+            "required": true
+        }
+    ],
+    "steps": [
+        {
+            "id": 1,
+            "text": "Chop 200g carrots, 100g onion and 100g celery and add them to a wide medium-hot pan. Add a splash of olive oil and let them fry for 5 minutes until softened and slightly browned.",
+            "image": "image/step_one",
+            "time": 300,
+            "required": true,
+            "ingredients": [
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                },
+                {
+                    "id": 4
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "text": "Turn the heat right up and add 400g beef mince and fry for another 5 minutes, or until the meat is slightly browned.",
+            "time": 300,
+            "required": true,
+            "ingredients": [
+                {
+                    "id": 1
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "text": "Turn the heat down to low, wait one minute. Then pour in 200ml of white wine to deglaze the pan. Stir the pan and gently scrape the bottom and sides to get all the flavour into the dish.",
+            "time": 300,
+            "required": true,
+            "comment": "This step gathers up all the flavour that's currently stuck to the pan - we want it all in the dish!",
+            "ingredients": [
+                {
+                    "id": 5,
+                    "quantity": "200"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "text": "Once all the flavour has been incorporated back into the sauce, add 300ml of chicken stock, stir and leave to cook for 45 minutes, or until the sauce is the consistency of a thick soup.",
+            "image": "image/step_four",
+            "time": 2700,
+            "required": true,
+            "ingredients": [
+                {
+                    "id": 6
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "text": "Add the remaining 50ml of white wine, two tablespoons of tomato puree and a pinch of black pepper, stir until all mixed in, and cook for a further 5 minutes.",
+            "image": "image/step_five",
+            "time": 300,
+            "required": true,
+            "ingredients": [
+                {
+                    "id": 5,
+                    "quantity": "50"
+                },
+                {
+                    "id": 7,
+                    "quantity": "2"
+                },
+                {
+                    "id": 8
+                }
+            ]
+        }
+
+    ]
+}
